@@ -1,31 +1,80 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web page with fluid typography</title>
-    <meta name="description" content="provacy
-    .">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="privacy.css" rel="stylesheet">
+	<title>Legal and Privacy Statement | Mary Smith | Portfolio Website</title>
+	<meta name="description" content="Legal and Privacy Statement for this website">
 
+	<meta name="author" content="filferrero">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50714507-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link rel="stylesheet" href="assets/css/privacy.css">
 
-  gtag('config', 'UA-50714507-1');
-</script>
+	<!-- Link to icons for Font Awesome 4 -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243940-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-122243940-1');
+	</script>
 
 
 </head>
 
 <body>
 
+<!-- begin menu mobile -->
+
+<div class="container-menu-bar-mobile menu-mobile-dark menu-mobile-sticky">
+	<div class="item-logo">
+		<a href="index.html"><img src="assets/img/logo-blue.png" alt="logo"></a>
+	</div>
+	<div class="item-icon">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+</div>
+
+<div class="container-menu-options-mobile menu-mobile-dark">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="portfolio/index.html">Portfolio</a></li>
+		<li><a href="privacy.html">Privacy</a></li>
+		<li><a href="contact.html" class="btn-solid btn-rounded">Get in touch</a></li>
+	</ul>
+</div>
+<!-- end menu mobile -->
+
+
+<!-- begin menu desktop -->
+<div class="container-menu-desktop menu-desktop-dark menu-desktop-sticky">
+	<div class="item-logo">
+		<a href="index.html">
+			<img src="assets/img/logo-blue.png" alt="logo">
+		</a>
+	</div>
+	<div class="item-menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="privacy.html">Privacy</a></li>
+			<li><a href="contact.html" class="btn-solid btn-rounded">Get in touch</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end menu desktop -->
+
+
+<!-- begin wrapper for page content -->
 <div class="page-wrapper">
 		<h1>Privacy and Legal</h1>
 
@@ -117,26 +166,61 @@
 		<p>IN NO EVENT WILL the author BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY TYPE WHATSOEVER RELATED TO OR ARISING FROM THIS WEBSITE ANY USE OF THIS WEBSITE OR OF ANY SITE OR RESOURCE LINKED TO, REFERENCED, OR ACCESSED THROUGH THIS WEBSITE, OR FOR THE USE OR DOWNLOADING OF, OR ACCESS TO, ANY MATERIALS, INFORMATION, PRODUCTS, OR SERVICES, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOST SAVINGS OR LOSS OF PROGRAMS OR OTHER DATA, EVEN IF the author IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS EXCLUSION AND WAIVER OF LIABILITY APPLIES TO ALL CAUSES OF ACTION, WHETHER BASED ON CONTRACT, WARRANTY, TORT, OR ANY OTHER LEGAL THEORIES.</p>
 
 		<p>Additional or different terms, conditions, and notices may apply to specific materials, information, products, software, and services offered through this website. In the event of any conflict, such additional or different terms, conditions, and notices will prevail over these Terms of Use. Please see the applicable agreement or notice.</p>
+</div>
+<!-- end wrapper for page content -->
 
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<div class="container-footer">
+
+	<div class="flex-grid-footer">
+
+		<div class="col-gutter">
+			<h4>SITE MAP</h4>
+			<p><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;<a href="index.html">Home</a></p>
+			<p><i class="fa fa-file" aria-hidden="true"></i>&nbsp;&nbsp;<a href="portfolio/index.html">Portfolio</a></p>
+			<p><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;&nbsp;<a href="privacy.html">Privacy</a></p>
+		</div><!-- /column -->
+
+		<div class="col-gutter">
+			<h4>ABOUT ME</h4>
+			<p>Hi, I'm Mary Smith. I'm a web designer and developer.</p>
+			<p>I created this website to showcase some of the projects I have created.</p>
+		</div><!-- /column -->
+
+
+		<div class="col-gutter">
+			<h4>CONTACT</h4>
+			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:filferrero@gmail.com">Email</a></p>
+			<p><i class="fa fa-github-square"></i>&nbsp;&nbsp;<a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
+			<p><i class="fa fa-linkedin"></i>&nbsp;&nbsp;<a href="" target="_blank">Linkedin</a></p>
+		</div><!-- /column -->
+
+	</div><!-- /flexgrid -->
+	
+</div> <!-- /footer -->
+
+
+
+<!-- Begin JavaScript code showing/hiding slide-out menu -->
 <script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "content": {
-    "href": "filferrero.github.io/website/privacy.html"
-  }
-})});
+	document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+
+	function toggleMobileMenu() {
+		//toggle hamburger icon
+		let elemIcon = document.querySelector('.item-icon');
+		elemIcon.classList.toggle("change");
+	
+		//if mobile menu currently closed, open menu.
+		if (elemIcon.classList.contains('change')) {
+			document.querySelector(".container-menu-options-mobile").style.right = "0";
+		}
+		//if mobile menu currently open, close menu.
+		else {
+			document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+		}
+	}
 </script>
+<!-- End JavaScript code showing/hiding slide-out menu -->
 
 
 </body>
