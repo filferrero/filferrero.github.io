@@ -8,9 +8,9 @@
 	<title> Graphic Designer | Filippo Ferrero </title>
 	<meta name="description" content="Some of my recent website projects.">
 
-	<meta name="author" content="Mary Smith">
+	<meta name="author" content="Filippo Ferrero">
 
-	<link rel="stylesheet" href="assets/css/portfolio-1.css">
+	<link rel="stylesheet" href="assets/css/portfolio-2.css">
 
 	<style>
 		p.note { text-align:center; margin-bottom:32px }
@@ -27,10 +27,10 @@
 	window.cookieconsent.initialise({
 	  "palette": {
 		"popup": {
-		  "background": "#383b75"
+		  "background": " #004080"
 		},
 		"button": {
-		  "background": "#f1d600"
+		  "background": " #004080"
 		}
 	  },
 	  "theme": "classic",
@@ -42,7 +42,7 @@
 
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50714507-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50714507-1"></script>
 	<script>
   	window.dataLayer = window.dataLayer || [];
   	function gtag(){dataLayer.push(arguments);}
@@ -58,11 +58,8 @@
 
 <!-- begin menu mobile -->
 
-<div class="container-menu-bar-mobile menu-mobile-dark menu-mobile-sticky">
-	<div class="item-logo">
-		<a href="../index.html">
-			<img src="assets/img/logo-blue.png" alt="logo">
-		</a>
+<div class="container-menu-bar-mobile menu-mobile-transparent menu-mobile-sticky">
+	
 	</div>
 	<div class="item-icon">
 		<div class="bar1"></div>
@@ -83,11 +80,9 @@
 
 
 <!-- begin menu desktop -->
-<div class="container-menu-desktop menu-desktop-dark menu-desktop-sticky">
+<div class="container-menu-desktop menu-desktop-transparent menu-desktop-sticky">
 	<div class="item-logo">
-		<a href="index.html">
-			<img src="assets/img/logo-blue.png" alt="logo">
-		</a>
+		
 	</div>
 	<div class="item-menu">
 		<ul>
@@ -104,16 +99,17 @@
 <!-- begin page content -->
 
 
-<div class="hero-block-1">
-	<div class="slide-in-top">
-		<h1>Portfolio</h1>
-		<h2>Welcome to a selection of my web design and development work.</h2>
+<div class="hero-block-5">
+	<div class="full">
+		<h1> LOGO - PACKAGING - TYPE - CREATIVITY - INTELLIGENCE - COLOUR - PRINT - DIGITAL - BRIEF - PRESENTATION </h1>
+		<h2></h2>
 	</div>
 </div>
 
+
 <div class="container-wide">
 
-	<p class="note">(<b>NOTE</B>: See alternative versions:  <a href="index-2.html">here</a> and  <a href="index-3.html">here</a>.)</p>
+	
 
 	<div class="flex-grid-three">
 
@@ -141,13 +137,12 @@
 			</a>
 			<h3>Hero Blocks</h3>
 			<p>Landing page hero blocks with various fonts, alignments and background colours, gradients and images.</p>
-			<a  class="btn-ghost btn-rounded" href="../hero/index.html">View web page</a>
+			<a class="btn-ghost btn-rounded" href="../hero/index.html">View web page</a>
 		</div>
 
 	</div><!--- /flex-grid -->
 
 </div><!--- /container -->
-
 
 
 <div class="container-wide">
@@ -181,11 +176,9 @@
 			<a class="btn-ghost btn-rounded" href="../project-sample-2/index.html">View web page</a>
 		</div>
 
-
 	</div><!--- /flex-grid -->
 
 </div><!--- /container -->
-
 
 <div class="container-footer">
 
@@ -213,7 +206,7 @@
 
 			<h4>CONTACT</h4>
 
-			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:ibat.training@gmail.com">Email</a></p>
+			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:filferrero@gmail.com">Email</a></p>
 
 			<p><i class="fa fa-github-square"></i>&nbsp;&nbsp;<a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
 
@@ -225,6 +218,42 @@
 	
 </div> <!-- /footer -->
 
+
+
+<!-- Begin JavaScript code for menu styles on scrolling -->
+<script>
+
+	window.onscroll = function() {
+		scrollDesktop();
+		scrollMobile();
+	}
+
+	function scrollDesktop() {
+		let headerDesktop = document.querySelector('.container-menu-desktop');
+		let stickyDesktop = headerDesktop.offsetTop;
+
+		if (window.pageYOffset > stickyDesktop) {
+			headerDesktop.classList.add("menu-desktop-light");
+			headerDesktop.classList.remove("menu-desktop-transparent");
+		} else {
+			headerDesktop.classList.add("menu-desktop-transparent");
+			headerDesktop.classList.remove("menu-desktop-light");
+		}
+	}
+
+	function scrollMobile() {
+		let headerMobile = document.querySelector('.container-menu-bar-mobile');
+		let stickyMobile = headerMobile.offsetTop;
+		if (window.pageYOffset > stickyMobile) {
+			headerMobile.classList.add("menu-mobile-light");
+			headerMobile.classList.remove("menu-mobile-transparent");
+		} else {
+			headerMobile.classList.add("menu-mobile-transparent");
+			headerMobile.classList.remove("menu-mobile-light");
+		}
+	}
+</script>
+<!-- End JavaScript code for menu styles on scrolling -->
 
 
 <!-- Begin JavaScript code showing/hiding slide-out menu -->
