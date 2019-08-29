@@ -19,7 +19,6 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 	.container-menu-bar-mobile, .container-menu-options-mobile {
 		display: none;
-		color:  #004080;
 	}
 }
 
@@ -33,7 +32,6 @@ body { font-family: sans-serif }
 		width: 100%;
 		margin-bottom: 40px;
 		z-index:99;
-		color:  #004080;
 	}
 
 	/* Logo */
@@ -124,7 +122,7 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: #003366 }
+	.menu-mobile-dark { background-color: #c0392b }
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
@@ -135,12 +133,12 @@ body { font-family: sans-serif }
 	.menu-mobile-dark li a { color: #fff }
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:;
+		background-color: #fff; border-color: #fff; color:#c0392b;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: #003366; color:#fff;
+		background-color: #c0392b; color:#fff;
 	}
 
 	/*== Light mobile menu == */
@@ -149,18 +147,18 @@ body { font-family: sans-serif }
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
 	.menu-mobile-light .item-icon .bar3 {
-		background-color: #003366;
+		background-color: #c0392b;
 	}
 
-	.menu-mobile-light li a { color: #003366 }
+	.menu-mobile-light li a { color: #c0392b }
 
 	.menu-mobile-light li a.btn-solid { 
-		background-color: #003366; border-color: #fff; color:#fff;
+		background-color: #c0392b; border-color: #fff; color:#fff;
 	}
 
 	.menu-mobile-light li a.btn-solid:hover, 
 	.menu-mobile-light li a.btn-solid:active { 
-		background-color: #fff; color:#003366; border-color: #003366
+		background-color: #fff; color:#c0392b; border-color: #c0392b
 	}
 
 
@@ -236,7 +234,7 @@ body { font-family: sans-serif }
 	.container-menu-desktop .item-menu ul li a.btn-solid:hover, 
 	.container-menu-desktop .item-menu ul li a.btn-solid:active { 
 		text-decoration: none;
-		background-color:#003366;
+		background-color: #c0392b;
 		color:#fff;
 	}
 
@@ -270,29 +268,29 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 
 	/*== Dark desktop menu == */
-	.menu-desktop-dark { background-color: #003366 }
+	.menu-desktop-dark { background-color: #c0392b }
 	.menu-desktop-dark .item-menu ul li a { color: #fff }
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:#003366;
+		background-color: #fff; border-color: #fff; color:#c0392b;
 	}
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:active { 
-		background-color: #003366; color:#fff;
+		background-color: #c0392b; color:#fff;
 	}
 
 	/*== Light desktop menu == */
 	.menu-desktop-light { background-color: #fff; box-shadow: 0px 1px 10px #888 }
-	.menu-desktop-light .item-menu ul li a { color: #003366 }
+	.menu-desktop-light .item-menu ul li a { color: #c0392b }
 
 	.menu-desktop-light .item-menu ul li a.btn-solid { 
-		background-color: #003366; border-color: #003366; color: #fff;
+		background-color: #c0392b; border-color: #c0392b; color: #fff;
 	}
 
 	.menu-desktop-light .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-light .item-menu ul li a.btn-solid:active { 
-		background-color: #fff; color: #003366;
+		background-color: #fff; color: #c0392b;
 	}
 
 
@@ -304,12 +302,12 @@ body { font-family: sans-serif }
 	.menu-desktop-transparent .item-menu ul li a { color: #fff }
 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color: #003366
+		background-color: #fff; border-color: #fff; color: #c0392b
 	}
 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid:active { 
-		background-color: #003366; color:#fff; border-color: #003366
+		background-color: #c0392b; color:#fff; border-color: #c0392b
 	}
 
 	/*== Sticky desktop menu == */
@@ -318,40 +316,37 @@ body { font-family: sans-serif }
 }
 
 
-
 .hero-block-5 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url('../img/homefhilA.jpg');
-    height: 60%;
-    background-position: center center;
+	background-image: linear-gradient(rgba(255,0,0,0.6),rgba(255,0,0,0.6)), url('../img/background-design-dark.jpg');
+	background-position: center center;
 	background-size: cover;
-	background-repeat: ;
-	margin-bottom: 35px;
+	background-repeat: no-repeat;
 }
 
 .hero-block-5 h1, .hero-block-5 h2 {
 	text-align: center;
-	color: #c2b0d6;
-	color: rgba(0, 0, 0, 0.15);
+	color: #fff;
 	font-weight: bold;
 	font-family: sans-serif;
+	text-shadow: 2px 2px #222;
 }
 
 .hero-block-5 h1 {
-	font-size: calc(35px + (72 - 35) * ((100vw - 320px)/(1600 - 320)));
+	font-size: calc(40px + (72 - 40) * ((100vw - 320px)/(1600 - 320)));
 	letter-spacing:4px;
 	text-transform:uppercase;
 }
 
 .hero-block-5 h2 {
-	font-size: calc(15px + (42 - 15) * ((100vw - 320px)/(1600 - 320)));
+	font-size: calc(20px + (42 - 20) * ((100vw - 320px)/(1600 - 320)));
 	line-height: 1.5;
 }
 
 /* Desktop - block height, text width and h1 bottom margin */
-@media all and (min-width:) { 
+@media all and (min-width:768px) { 
 	.hero-block-5 { height: 520px; margin-bottom: 80px }
 	.hero-block-5 h1, .hero-block-5 h2 { 
 		width: 60%; 
@@ -392,8 +387,8 @@ body { font-family: sans-serif }
 .page-wrapper a.fancy-link:visited {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 2px #003366;
-	color: #003366;
+	border-bottom: solid 2px #c0392b;
+	color: #c0392b;
 }
 
 .page-wrapper a.fancy-link:hover, 
@@ -533,8 +528,8 @@ body { font-family: sans-serif }
 .flex-grid-three a.fancy-link:visited {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 2px #003366;
-	color:#003366;
+	border-bottom: solid 2px #c0392b;
+	color:#c0392b;
 }
 
 .flex-grid-three a.fancy-link:hover, 
@@ -576,7 +571,7 @@ body { font-family: sans-serif }
 
 .flex-grid-three a.btn-solid { 
 	display: inline-block;
-	background-color: #003366;
+	background-color: #c0392b;
 	color:#fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -585,7 +580,7 @@ body { font-family: sans-serif }
 
 .flex-grid-three a.btn-solid:hover, 
 .flex-grid-three a.btn-solid:active {
-	background-color: #003366;
+	background-color: #c0392b;
 	color: #fff;
 }
 
@@ -595,18 +590,18 @@ body { font-family: sans-serif }
 .flex-grid-three a.btn-ghost { 
 	display: inline-block;
 	background-color: transparent;
-	color: #003366;
+	color: #c0392b;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
-	border: solid 2px #003366;
+	border: solid 2px #c0392b;
 }
 
 .flex-grid-three a.btn-ghost:hover, 
 .flex-grid-three a.btn-ghost:active {
-	background-color: #003366;
+	background-color: #c0392b;
 	color: #fff;
-	border: solid 2px #003366;
+	border: solid 2px #c0392b;
 }
 
 /* ==== BUTTON HYPERLINK CORNER STYLES  ==== */
@@ -619,7 +614,7 @@ body { font-family: sans-serif }
 
 /*======================= FOOTER =====================*/
 
-.container-footer { background-color: #2c3e50; margin-top: 5%; border-top: solid 4px #003366 }
+.container-footer { background-color: #2c3e50; margin-top: 5%; border-top: solid 4px #c0392b }
 
 .bg-footer { background: #2c3e50; padding: 42px 0 48px 0  }
 
@@ -722,4 +717,3 @@ body { font-family: sans-serif }
     opacity: 1;
   }
 }
-
