@@ -323,8 +323,8 @@ body { font-family: sans-serif }
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url('../img/homefhilA.jpg');
-    height: 60%;
+	background-image: url('../img/FilTop.jpg');
+    height: 40%;
     background-position: center center;
 	background-size: cover;
 	background-repeat: ;
@@ -350,6 +350,34 @@ body { font-family: sans-serif }
 	line-height: 1.5;
 }
 
+.newspaper {
+	margin: 20px;
+
+  /* Old Chrome, Safari, Opera */
+  -webkit-column-count: 3; 
+  -webkit-column-width: 100px;
+    
+  /* Old Firefox */
+  -moz-column-count: 3;
+  -moz-column-width: 100px;
+
+  /* Statndard syntax */
+  column-count: 3;
+  column-width: 100px;
+
+}
+
+
+.flex-grid-three h1{
+	font-family: 'Hepta Slab', serif;
+	text-align: center;
+	color: grey;
+	font-weight: ;
+	margin-top: ;
+	margin-bottom:; 
+}
+
+
 /* Desktop - block height, text width and h1 bottom margin */
 @media all and (min-width:) { 
 	.hero-block-5 { height: 520px; margin-bottom: 80px }
@@ -372,6 +400,9 @@ body { font-family: sans-serif }
 	}
 	.hero-block-5 h1 { margin-bottom: 5%; letter-spacing:1px }
 }
+
+
+
 
 
 /* ========================== PAGE WRAPPER  ============================== */
@@ -443,7 +474,7 @@ body { font-family: sans-serif }
 
 /*======================= 3-COLUMN GRID =====================*/
 .container-wide {
-	background: #FFF url('../img/background.jpg'); 
+	background: #FFF url(''); 
 	no-repeat center top;
     margin: 0 auto;
 }
@@ -505,6 +536,19 @@ body { font-family: sans-serif }
 	line-height: 1.1;
 	font-size: calc(22px + (28 - 20) * ((100vw - 320px) / (1600 - 320))); 
 }
+
+.flex-grid-three h1 {  
+	font-weight: ; 
+	text-align: center;
+	color: grey;
+	text-decoration: ;
+	line-height: 1.1;
+	font-size: calc(15px + (28 - 20) * ((100vw - 320px) / (1600 - 320)));
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+
+
 
 .flex-grid-three p { 
 	font-weight: 400;
