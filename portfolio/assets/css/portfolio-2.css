@@ -19,7 +19,7 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 	.container-menu-bar-mobile, .container-menu-options-mobile {
 		display: none;
-		color:  #004080;
+		
 	}
 }
 
@@ -33,7 +33,7 @@ body { font-family: sans-serif }
 		width: 100%;
 		margin-bottom: 40px;
 		z-index:99;
-		color:  #004080;
+		
 	}
 
 	/* Logo */
@@ -350,22 +350,7 @@ body { font-family: sans-serif }
 	line-height: 1.5;
 }
 
-.newspaper {
-	margin: 20px;
 
-  /* Old Chrome, Safari, Opera */
-  -webkit-column-count: 3; 
-  -webkit-column-width: 100px;
-    
-  /* Old Firefox */
-  -moz-column-count: 3;
-  -moz-column-width: 100px;
-
-  /* Statndard syntax */
-  column-count: 3;
-  column-width: 100px;
-
-}
 
 
 .flex-grid-three h1{
@@ -391,7 +376,7 @@ body { font-family: sans-serif }
 
 /* Mobiles - block height, text width and h1 bottom margin */
 @media all and (max-width:767px) { 
-	.hero-block-5 { height: 340px; padding-top: 20px; margin-bottom: 40px }
+	.hero-block-5 { height: 200px; padding-top: 20px; margin-bottom: 40px }
 	.hero-block-5 h1, .hero-block-5 h2  { 
 		text-align: center;
 		width: 80%; 
@@ -474,7 +459,7 @@ body { font-family: sans-serif }
 
 /*======================= 3-COLUMN GRID =====================*/
 .container-wide {
-	background: #FFF url(''); 
+	background:  url(''); 
 	no-repeat center top;
     margin: 0 auto;
 }
@@ -704,7 +689,7 @@ body { font-family: sans-serif }
 }
 
 .flex-grid-footer p { 
-	font-size: calc(15px + (16 - 15) * ((100vw - 320px)/(1600 - 320))); 
+	font-size: calc(10px + (16 - 15) * ((100vw - 320px)/(1600 - 320))); 
 	line-height: 1.6;
 	margin-bottom: 12px
 }
