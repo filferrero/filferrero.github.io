@@ -79,7 +79,7 @@ body { font-family: sans-serif }
 		position: fixed; 
 		display: block; 
 		top: 60px;
-		height: 100%; 
+		height: 22%; 
 		width: 320px;
 		right: -320px;
 		padding-top: 30px;
@@ -124,23 +124,23 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: #003366 }
+	.menu-mobile-dark { background-color: lightgray }
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
 	.menu-mobile-dark .item-icon .bar3 {
-		background-color: #fff;
+		background-color:darkgray;
 	}
 
-	.menu-mobile-dark li a { color: #fff }
+	.menu-mobile-dark li a { color: darkgray }
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:;
+		background-color: lightgray; border-color: darkgray; color:;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: #003366; color:#fff;
+		background-color: lightgray; color:#fff;
 	}
 
 	/*== Light mobile menu == */
@@ -149,18 +149,18 @@ body { font-family: sans-serif }
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
 	.menu-mobile-light .item-icon .bar3 {
-		background-color: #003366;
+		background-color: lightgray;
 	}
 
-	.menu-mobile-light li a { color: #003366 }
+	.menu-mobile-light li a { color: lightgray }
 
 	.menu-mobile-light li a.btn-solid { 
-		background-color: #003366; border-color: #fff; color:#fff;
+		background-color: lightgray; border-color: #fff; color:#fff;
 	}
 
 	.menu-mobile-light li a.btn-solid:hover, 
 	.menu-mobile-light li a.btn-solid:active { 
-		background-color: #fff; color:#003366; border-color: #003366
+		background-color: #fff; color:lightgray; border-color: lightgray
 	}
 
 

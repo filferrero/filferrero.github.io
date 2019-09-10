@@ -79,7 +79,7 @@ body { font-family: sans-serif }
 		position: fixed; 
 		display: block; 
 		top: 60px;
-		height: 100%; 
+		height: 22%; 
 		width: 320px;
 		right: -320px;
 		padding-top: 30px;
@@ -124,23 +124,23 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: #003366 }
+	.menu-mobile-dark { background-color: lightgray }
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
 	.menu-mobile-dark .item-icon .bar3 {
-		background-color: #fff;
+		background-color:darkgray;
 	}
 
-	.menu-mobile-dark li a { color: #fff }
+	.menu-mobile-dark li a { color: darkgray }
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:;
+		background-color: lightgray; border-color: darkgray; color:;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: #003366; color:#fff;
+		background-color: lightgray; color:#fff;
 	}
 
 	/*== Light mobile menu == */
@@ -149,18 +149,18 @@ body { font-family: sans-serif }
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
 	.menu-mobile-light .item-icon .bar3 {
-		background-color: #003366;
+		background-color: lightgray;
 	}
 
-	.menu-mobile-light li a { color: #003366 }
+	.menu-mobile-light li a { color: lightgray }
 
 	.menu-mobile-light li a.btn-solid { 
-		background-color: #003366; border-color: #fff; color:#fff;
+		background-color: lightgray; border-color: #fff; color:#fff;
 	}
 
 	.menu-mobile-light li a.btn-solid:hover, 
 	.menu-mobile-light li a.btn-solid:active { 
-		background-color: #fff; color:#003366; border-color: #003366
+		background-color: #fff; color:lightgray; border-color: lightgray
 	}
 
 
@@ -236,7 +236,7 @@ body { font-family: sans-serif }
 	.container-menu-desktop .item-menu ul li a.btn-solid:hover, 
 	.container-menu-desktop .item-menu ul li a.btn-solid:active { 
 		text-decoration: none;
-		background-color:#003366;
+		background-color:lightgray;
 		color:#fff;
 	}
 
@@ -270,29 +270,29 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 
 	/*== Dark desktop menu == */
-	.menu-desktop-dark { background-color: #003366 }
+	.menu-desktop-dark { background-color: lightgray }
 	.menu-desktop-dark .item-menu ul li a { color: #fff }
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:#003366;
+		background-color: #fff; border-color: #fff; color:lightgray;
 	}
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:active { 
-		background-color: #003366; color:#fff;
+		background-color: lightgray; color:#fff;
 	}
 
 	/*== Light desktop menu == */
 	.menu-desktop-light { background-color: #fff; box-shadow: 0px 1px 10px #888 }
-	.menu-desktop-light .item-menu ul li a { color: #003366 }
+	.menu-desktop-light .item-menu ul li a { color: lightgray }
 
 	.menu-desktop-light .item-menu ul li a.btn-solid { 
-		background-color: #003366; border-color: #003366; color: #fff;
+		background-color: lightgray; border-color: lightgray; color: #fff;
 	}
 
 	.menu-desktop-light .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-light .item-menu ul li a.btn-solid:active { 
-		background-color: #fff; color: #003366;
+		background-color: #fff; color: lightgray;
 	}
 
 
@@ -304,12 +304,12 @@ body { font-family: sans-serif }
 	.menu-desktop-transparent .item-menu ul li a { color: #fff }
 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color: #003366
+		background-color: #fff; border-color: #fff; color: lightgray
 	}
 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-transparent .item-menu ul li a.btn-solid:active { 
-		background-color: #003366; color:#fff; border-color: #003366
+		background-color: lightgray; color:#fff; border-color: lightgray
 	}
 
 	/*== Sticky desktop menu == */
@@ -408,8 +408,8 @@ body { font-family: sans-serif }
 .page-wrapper a.fancy-link:visited {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 2px #003366;
-	color: #003366;
+	border-bottom: solid 2px lightgray;
+	color: lightgray;
 }
 
 .page-wrapper a.fancy-link:hover, 
@@ -569,8 +569,8 @@ body { font-family: sans-serif }
 .flex-grid-three a.fancy-link:visited {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 2px #003366;
-	color:#003366;
+	border-bottom: solid 2px lightgray;
+	color:lightgray;
 }
 
 .flex-grid-three a.fancy-link:hover, 
@@ -612,7 +612,7 @@ body { font-family: sans-serif }
 
 .flex-grid-three a.btn-solid { 
 	display: inline-block;
-	background-color: #003366;
+	background-color: lightgray;
 	color:#fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -621,7 +621,7 @@ body { font-family: sans-serif }
 
 .flex-grid-three a.btn-solid:hover, 
 .flex-grid-three a.btn-solid:active {
-	background-color: #003366;
+	background-color: lightgray;
 	color: #fff;
 }
 
@@ -631,18 +631,18 @@ body { font-family: sans-serif }
 .flex-grid-three a.btn-ghost { 
 	display: inline-block;
 	background-color: transparent;
-	color: #003366;
+	color: lightgray;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
-	border: solid 2px #003366;
+	border: solid 2px lightgray;
 }
 
 .flex-grid-three a.btn-ghost:hover, 
 .flex-grid-three a.btn-ghost:active {
-	background-color: #003366;
+	background-color: lightgray;
 	color: #fff;
-	border: solid 2px #003366;
+	border: solid 2px lightgray;
 }
 
 /* ==== BUTTON HYPERLINK CORNER STYLES  ==== */
@@ -657,7 +657,7 @@ body { font-family: sans-serif }
 
 .container-footer { 
 	background-image: url('../img/BackGroundBlack.jpg'); 
-	margin-top: 5%;   border-top: solid 4px #003366 }
+	margin-top: 5%;   border-top: solid 4px lightgray }
 
 .bg-footer { background-image: url('../img/BackGroundBlack.jpg'); padding: 0px 0 0px 0  }
 
